@@ -4,9 +4,9 @@ from telegram.ext import run_async, Filters
 
 from telegram import Message, Chat, Update, Bot, MessageEntity
 
-from MashaRoBot import dispatcher
+from FallenRobot import dispatcher
 
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from FallenRobot.modules.disable import DisableAbleCommandHandler
 
 SFW_STRINGS = (
 
@@ -156,7 +156,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "ɪɴsᴜʟᴛs🤡"
+__mod_name__ = "ɪɴsᴜʟᴛs"
 
 INSULT_HANDLER = DisableAbleCommandHandler("insult", insult)
 
