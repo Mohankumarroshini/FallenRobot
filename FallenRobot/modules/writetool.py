@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message as message
-from nandhabot import bot
+from FallenRobot import bot
 
 
 @bot.on_message(filters.command("write"))
 async def handwriting(_, message):
     if len(message.command) < 2:
-        return await message.reply_text("» Give some text to write...")
-    m = await message.reply_text("» I writing please wait...")
+        return await message.reply_text("» ʟᴏʟ,, ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴡʀɪᴛᴇ...")
+    m = await message.reply_text("» ɪ ᴀᴍ ᴡʀɪᴛɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...")
     name = (
         message.text.split(None, 1)[1]
         if len(message.command) < 3
@@ -15,4 +15,4 @@ async def handwriting(_, message):
     )
     hand = "https://apis.xditya.me/write?text=" + name
     await m.edit("» Uploading...")
-    await message.reply_photo(hand, caption="🖊 Written by @VegetaRobot")
+    await message.reply_photo(hand, caption="🖊ᴡʀɪᴛᴛᴇɴ ʙʏ @HeraXRoBot")
