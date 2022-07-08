@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message as message
-from FallenRobot import bot
+from FallenRobot import pbot
 
 
-@bot.on_message(filters.command("write"))
+@pbot.on_message(filters.command("write"))
 async def handwriting(_, message):
     if len(message.command) < 2:
         return await message.reply_text("» ʟᴏʟ,, ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴡʀɪᴛᴇ...")
