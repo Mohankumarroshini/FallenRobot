@@ -1,6 +1,6 @@
 import random
 
-from telegram.ext import run_async, Filters
+from telegram.ext import run_async, Filters, CallbackContext
 
 from telegram import Message, Chat, Update, Bot, MessageEntity
 
