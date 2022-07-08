@@ -734,7 +734,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
-                "https://telegra.ph/file/f24142a097b9a877cad42.jpg",
+                "https://telegra.ph/file/f24142a097b9a877cad42.jpg", "https://telegra.ph/file/a67dc5bce8e4cc4552064.jpg", "https://telegra.ph/file/f75ebb454c6c8993fef9e.jpg",
 		
                 caption="𝙃𝙀𝙍𝘼 ✘ 𝘽𝙊𝙏 🧚 ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ எம்.எஸ்.டி 🥀",
             )
