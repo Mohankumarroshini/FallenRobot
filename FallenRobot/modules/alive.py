@@ -11,7 +11,7 @@ from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatche
 
 
 PHOTO = [
-       "https://telegra.ph/file/0c63efafefa0a214d8df8.jpg".
+       "https://telegra.ph/file/0c63efafefa0a214d8df8.jpg",
 
 "https://telegra.ph/file/0a020df4a384b96462559.jpg",
 
