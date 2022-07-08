@@ -136,7 +136,7 @@ SFW_STRINGS = (
 
 @run_async
 
-def insult(bot: Bot, update: Update):
+def insult(bot: Bot, update: Update, context: CallbackContext):
 
     bot.sendChatAction(update.effective_chat.id, "typing") # Bot typing before send messages
 
