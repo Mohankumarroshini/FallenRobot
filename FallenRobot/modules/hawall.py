@@ -1,6 +1,6 @@
 
 import random, requests, time
-from FallenRobot import telethn as asst, pgram as bot
+from FallenRobot import telethn as asst, pgram as pbot
 from telethon import Button, events
 from FallenRobot.events import register
 from pyrogram import filters
@@ -8,7 +8,7 @@ from pyrogram.types import *
 
 
 #credits to t.me/nandhaxd
-@bot.on_message(filters.command("wish"))
+@pbot.on_message(filters.command("wish"))
 async def wish(_, m):
             if len(m.command) <  2:
                   await m.reply("😉 ~~**Add~~ wish!**")
