@@ -1,8 +1,8 @@
 
 import random, requests, time
-from VegetaRobot import telethn as asst, pgram as bot
+from FallenRobot import telethn as asst, pgram as bot
 from telethon import Button, events
-from VegetaRobot.events import register
+from FallenRobot.events import register
 from pyrogram import filters
 from pyrogram.types import *
 
